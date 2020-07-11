@@ -1,0 +1,41 @@
+{
+  "name": "chatRoom",
+  "version": "0.0.1",
+  "description": "NodeJS based Text, Image, File Real Time Chat Room",
+  "keywords": [
+    "NodeJS",
+    "AngularJS",
+    "Web Sockets",
+    "File Sharing"
+  ],
+  "author": "Saurabh Nandu saurabh@systenics.com",
+  "contributors": [
+    {
+      "name": "Balkrishna Sawant",
+      "email": "balkrishnasawant0617@gmail.com"
+    },
+    {
+      "name": "Pravin Kumar Mishra",
+      "email": "mishrapravin827@gmail.com"
+    }
+  ],
+  "homepage": "http://chat.systenics.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/systenics/ChatRoom.git"
+  },
+  "private": "false",
+  "bundleDependencies": [
+    "passport.socketio"
+  ],
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.17.1",
+    "formidable": "^1.0.17",
+    "fs": "0.0.2",
+    "multer": "^1.4.2",
+    "socket.io": "^2.3.0",
+    "util": "^0.10.3"
+  },
+  "license": "MIT"
+}
